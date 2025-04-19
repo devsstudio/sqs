@@ -1,0 +1,31 @@
+{
+  "name": "@devs-studio/sqs",
+  "version": "1.0.0",
+  "description": "SQS classes and helpers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npx tsc",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsstudio/sqs.git"
+  },
+  "keywords": [
+    "sqs",
+    "aws"
+  ],
+  "author": "Devs Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsstudio/sqs/issues"
+  },
+  "homepage": "https://github.com/devsstudio/sqs#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.787.0"
+  }
+}
