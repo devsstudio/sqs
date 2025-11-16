@@ -1,6 +1,6 @@
 {
   "name": "@devs-studio/sqs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SQS classes and helpers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,4 +1,4 @@
 export class SqsCredentials {
-    accessKeyId: string;
-    secretAccessKey: string;
+    accessKeyId!: string;
+    secretAccessKey!: string;
 }

@@ -7,7 +7,7 @@ export class SqsService {
 
     protected sqsClient: SQSClient;
 
-    constructor(private readonly config: SqsConfig = null) {
+    constructor(private readonly config: SqsConfig | null = null) {
         this.sqsClient = new SQSClient(config || {});
     }
 
